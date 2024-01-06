@@ -1,0 +1,152 @@
+{
+  "info": {
+    "_postman_id": "87deb63b-6a2a-454f-aeb5-edd10b94b199",
+    "name": "clothup_test",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "users",
+      "item": [
+        {
+          "name": "auth",
+          "item": [
+            {
+              "name": "signup",
+              "request": {
+                "url": {
+                  "protocol": "http",
+                  "port": "5000",
+                  "path": [
+                    "api",
+                    "users",
+                    "auth",
+                    "signup"
+                  ],
+                  "host": [
+                    "localhost"
+                  ],
+                  "query": [],
+                  "variable": []
+                },
+                "header": [
+                  {
+                    "key": "",
+                    "value": ""
+                  }
+                ],
+                "method": "POST",
+                "body": {
+                  "mode": "raw",
+                  "raw": "{\"key1\":\"value1\",\"key2\":\"value2\",\"key3\":\"value3\"}"
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "login",
+              "request": {
+                "url": {
+                  "protocol": "http",
+                  "port": "5000",
+                  "path": [
+                    "api",
+                    "users",
+                    "auth",
+                    "login"
+                  ],
+                  "host": [
+                    "localhost"
+                  ],
+                  "query": [],
+                  "variable": []
+                },
+                "header": [
+                  {
+                    "key": "",
+                    "value": ""
+                  }
+                ],
+                "method": "POST",
+                "body": {
+                  "mode": "raw",
+                  "raw": "{\"key1\":\"value1\",\"key2\":\"value2\",\"key3\":\"value3\"}"
+                }
+              },
+              "response": []
+            }
+          ]
+        },
+        {
+          "name": "cart",
+          "item": [
+            {
+              "name": "cart.js",
+              "request": {
+                "url": {
+                  "protocol": "http",
+                  "port": "5000",
+                  "path": [
+                    "api",
+                    "users",
+                    "cart",
+                    ""
+                  ],
+                  "host": [
+                    "localhost"
+                  ],
+                  "query": [],
+                  "variable": []
+                },
+                "header": [
+                  {
+                    "key": "",
+                    "value": ""
+                  }
+                ],
+                "method": "POST",
+                "body": {
+                  "mode": "raw",
+                  "raw": "{\"key1\":\"value1\",\"key2\":\"value2\",\"key3\":\"value3\"}"
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "cart.js",
+              "request": {
+                "url": {
+                  "protocol": "http",
+                  "port": "5000",
+                  "path": [
+                    "api",
+                    "users",
+                    "cart",
+                    ""
+                  ],
+                  "host": [
+                    "localhost"
+                  ],
+                  "query": [],
+                  "variable": []
+                },
+                "header": [
+                  {
+                    "key": "",
+                    "value": ""
+                  }
+                ],
+                "method": "GET",
+                "body": {
+                  "mode": "raw",
+                  "raw": "{\"key1\":\"value1\",\"key2\":\"value2\",\"key3\":\"value3\"}"
+                }
+              },
+              "response": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
